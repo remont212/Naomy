@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="settings">
+        <div id="txtsetting">
+            <h1>Настройки</h1>
+            <input  @input= "name = $event.target.value" type="text" >
+            <h1 id="name">ПРОЕКТ: {{ name }}</h1>
+
+            <div class="stngclr">
+                <h1>Цвет текста</h1>
+
+            <div id="red" class="color"></div>
+            <div class="color" id="yellow"></div>
+            <div class="color" id="orange"></div>
+            <div class="color" id="green"></div>
+            <div class="color" id="blue"></div>
+            <div class="color" id="black"></div>
+            <div class="color" id="pink"></div>
+        </div>
+        <div class="sizing">
+            <div id="txt1" class="txtsizing">12</div>
+            <div id="txt2" class="txtsizing">18</div>
+            <div id="txt3" class="txtsizing">24</div>
+            <div id="txt4" class="txtsizing">30</div>
+            <div id="txt5" class="txtsizing">36</div>
+            <div id="txt6" class="txtsizing">48</div>
+            <div id="txt7" class="txtsizing">56</div>
+            <div id="txt8" class="txtsizing">60</div>
+            <div id="txt9" class="txtsizing">67</div>
+            <div id="txt10" class="txtsizing">72</div>
+        </div>
+        <div class="stngclr1">
+<h1>Цвет фона</h1>
+            <div id="bgred" class="color1"></div>
+            <div class="color1" id="bgyellow"></div>
+            <div class="color1" id="bgorange"></div>
+            <div class="color1" id="bggreen"></div>
+            <div class="color1" id="bgblue"></div>
+            <div class="color1" id="bgblack"></div>
+            <div class="color1" id="bgpink"></div>
+        </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<div class="textinput">
+
+    <form method="dialog">
+        <textarea name="" id="tic" >
+    
+        </textarea>
+    </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

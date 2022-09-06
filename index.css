@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+body {
+    font-family: Arial;
+}
+.settings{
+    position: sticky;
+ background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+width: 720px;
+height: 140vh;
+}
+#name{
+    margin-left: 200px;
+    border: 0px solid #ff005d00;
+position: fixed;
+font-size: 26px;
+}
+.color  {
+    cursor: pointer;
+}
+input {
+    background-color: #ff005d00;
+}
+@media(max-width:320px){
+    form textarea{
+        font-size: 18px;
+   height: 100vh;
+   width: 230%;
+        color: rgb(0, 0, 0);
+    }
+    form label {
+        font-size: 100px;
+    }
+    
+    
+    .stngclr{
+        background: rgb(255, 255, 255);
+        height: 170px;
+        margin-top: 40px;
+    width: 400px;
+    margin-left: 100px;
+    }
+    
+    .color {
+    margin-top: 59px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 0px solid ;
+    width: 40px;
+        height: 40px;
+        border: 3px solid black;
+    float: left;
+    }
+    .stngclr1{
+        background: rgb(255, 255, 255);
+        height: 170px;
+        margin-top: 230px;
+    width: 400px;
+    margin-left: 100px;
+    }
+    .color1 {
+        margin-top: 59px;
+        border-radius: 10px;
+        margin-left: 10px;
+        border: 0px solid ;
+        width: 40px;
+            height: 40px;
+            border: 3px solid black;
+        float: left;
+        }
+    
+    #red{
+        background-color: red;
+    }
+    #orange{
+        background-color: orange;
+    
+    }
+    #yellow{
+        background-color: yellow;
+    
+    }
+    #blue{
+        background-color: blue;
+    }
+    #black{
+        background-color: black;
+    
+    }
+    #green{
+        background-color: green;
+    
+    }
+    #pink{
+        background-color: pink;
+    
+    }
+    
+    .txtsizing {
+        float: left;
+        margin-top: 50px;
+        margin-left: 50px;
+        background-color: aliceblue;
+        height: 40px;
+        width: 40px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #bgred{
+        background-color: red;
+    }
+    #bgorange{
+        background-color: orange;
+    
+    }
+    #bgyellow{
+        background-color: yellow;
+    
+    }
+    #bgblue{
+        background-color: blue;
+    }
+    #bgblack{
+        background-color: black;
+    
+    }
+    #bggreen{
+        background-color: green;
+    
+    }
+    #bgpink{
+        background-color: pink;
+    
+    }
+ 
+    
+    }    
+}
+form textarea{
+    float: right;
+    font-size: 18px;
+    margin-top: -1070px;
+    width: 865px;
+    height: 100vh;
+    position: sticky;
+    color: rgb(0, 0, 0);
+}
+form label {
+    font-size: 100px;
+}
+
+
+.stngclr{
+    background: rgb(255, 255, 255);
+    height: 170px;
+    margin-top: 40px;
+width: 400px;
+margin-left: 100px;
+}
+
+.color {
+margin-top: 59px;
+border-radius: 10px;
+margin-left: 10px;
+border: 0px solid ;
+width: 40px;
+    height: 40px;
+    border: 3px solid black;
+float: left;
+}
+.stngclr1{
+    background: rgb(255, 255, 255);
+    height: 170px;
+    margin-top: 230px;
+width: 400px;
+margin-left: 100px;
+}
+.color1 {
+    margin-top: 59px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 0px solid ;
+    width: 40px;
+        height: 40px;
+        border: 3px solid black;
+    float: left;
+    }
+
+#red{
+    background-color: red;
+}
+#orange{
+    background-color: orange;
+
+}
+#yellow{
+    background-color: yellow;
+
+}
+#blue{
+    background-color: blue;
+}
+#black{
+    background-color: black;
+
+}
+#green{
+    background-color: green;
+
+}
+#pink{
+    background-color: pink;
+
+}
+
+.txtsizing {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: aliceblue;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#bgred{
+    background-color: red;
+}
+#bgorange{
+    background-color: orange;
+
+}
+#bgyellow{
+    background-color: yellow;
+
+}
+#bgblue{
+    background-color: blue;
+}
+#bgblack{
+    background-color: black;
+
+}
+#bggreen{
+    background-color: green;
+
+}
+#bgpink{
+    background-color: pink;
+
+}
+
+.fontstxt{
+background-color: aliceblue;
+color: black;
+height: 150px;
+margin-top: 100px;
+
+
+}
